@@ -3,7 +3,7 @@ const questions = [
         win:-1,
         q: "1️⃣ Quand est l'anniversaire de Zineb ? 🎂", 
         options: ["13 Février", "17 Avril", "29 Juillet"], 
-        answer: "26 Juillet", 
+        answer: "29 Juillet", 
         "13 Février": "❌ Oups ! C’est l’anniversaire d’Amina ! 🎈", 
         "17 Avril": "❌ Hmm… c'est MON anniversaire en fait ! 😆", 
         "29 Juillet": "✅ Bravo ! Tu connais bien Zineb ! 🎉"
