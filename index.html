@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Saint-Valentin avec Zineb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jeu de Saint-Valentin avec Zineb 🩵vs❤️</h1>
+        <p>Réponds aux 10 questions si tu connais vraiment Zineb!</p>
+        <p>Si tu gagnes dix cœurs rouges, tu verras un cœur spécial ❤!</p>
+        
+        <div class="quiz-container" id="quiz"></div>
+        
+        <div class="navigation">
+            <button class="btn" id="btnPrev" onclick="previousQuestion()">⬅️ Précédent</button>
+            <button class="btn" id="btnNext" onclick="nextQuestion()">Suivant ➡️</button>
+        </div>
+        
+        
+        <p id="messageWin" class="hidden">🎉 Félicitations <span id="winner"></span> ! 🎉<br> Tu connais vraiment Zineb ❤️</p>
+        <p id="messageLose" class="hidden"><span id="winner"></span> Oops!<br> <span id="score_gained"></span> cœurs gagnés. Tu es proche, mais pas encore tout à fait ! ❤️</p>
+        
+        <div class="score">Score: <span id="hearts">❤❤❤❤❤❤❤❤❤❤</span></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
